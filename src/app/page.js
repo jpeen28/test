@@ -32,6 +32,7 @@ const Dashboard = () => {
 
     setFilteredData(filtered);
 
+    
     const total = filtered.reduce((acc, item) => acc + item.prix, 0);
     setTotalPrice(total);
   };

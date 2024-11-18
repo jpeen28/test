@@ -14,6 +14,7 @@ const Chart = ({ data }) => {
     date: item.date, 
     age: item.age,    
   }));
+  
 
   return (
     <div className='graphique'>

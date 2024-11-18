@@ -6,6 +6,7 @@ const Filtre = ({ onFilterChange }) => {
     onFilterChange(name, value);
   };
 
+  
   return (
     <div className="filter-bar">
       <select name="saison" onChange={handleFilterChange}>

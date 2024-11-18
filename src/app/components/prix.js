@@ -8,4 +8,5 @@ const Prix = ({ prix }) => {
   );
 };
 
+
 export default Prix;
